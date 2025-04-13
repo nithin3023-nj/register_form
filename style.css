@@ -1,0 +1,51 @@
+body{
+    background: url("bg3.jpeg");
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+.regform{
+    width: 500px;
+    padding: 10px 10px 10px;
+    background-color: rgba(255, 255, 255, 0.62);
+    margin: 250px auto;
+    color: #000;
+    font-size: 30px;
+    border-radius: 10px;
+}
+.regform h3{
+    color: brown;
+    text-align: center;
+}
+.regform .txtlab{
+    display: block;
+}
+.input input{
+    width: 100%;
+    font-size: 1.2em;
+    border: 1px solid #006d77;
+    border-radius: 8px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin: 5px 0px 15px;
+}
+.input :focus{
+    background-color: cadetblue;
+}
+.button{
+    text-align: center;
+}
+button{
+    font-size: 30px;
+    background-color: cadetblue;
+    color: aliceblue;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border-radius: 8px;
+    border-color: rgb(0, 0, 62);
+    box-shadow: 2px;
+}
+.radio input{
+    accent-color:rgb(0, 15, 152);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
